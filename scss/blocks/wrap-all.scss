@@ -1,0 +1,13 @@
+.wrap-all {
+  min-width: 320px;
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 1em 2.5em;
+  box-sizing: border-box;
+  background: #fff;
+  color: #333;
+  box-shadow: 0 5px 10px rgba(100, 100, 100, 0.5);
+}
+.wrap-top {
+  flex: 1 0 auto;
+}

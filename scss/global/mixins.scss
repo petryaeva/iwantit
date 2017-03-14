@@ -1,0 +1,32 @@
+@mixin font-control($fontFamily, $fontSize, $lineHeight, $fontWeight) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: $fontWeight;
+}
+
+@mixin container() {
+  width: 1200px;
+  padding: 0 2em;
+
+  @media #{$tablet-width} {
+    width: 768px;
+    padding: 0 1em;
+  }
+  @media #{$mobile-width} {
+    width: 320px;
+    padding: 0;
+  }
+}
+
+@function calc-width ($col) {
+    @return 100% / $col
+}
+
+@mixin clearfix() {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}

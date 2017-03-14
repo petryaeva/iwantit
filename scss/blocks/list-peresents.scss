@@ -1,0 +1,23 @@
+.list-peresents {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 3em 0 4em 0;
+
+  &__item {
+    color: #006983;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    span {
+      color: #333;
+      font-size: 15px;
+    }
+  }
+}
