@@ -436,7 +436,7 @@ hr {
 p {
   font-size: 1.1em;
   line-height: 1.5em;
-  width: 80%;
+  width: 90%;
   text-align: center;
   margin: 1em auto; }
 
@@ -481,7 +481,7 @@ fieldset {
   min-width: 320px;
   max-width: 970px;
   margin: 0 auto;
-  padding: 1em 2.5em;
+  padding: 1em 2.4em;
   box-sizing: border-box;
   background: #fff;
   color: #333;
