@@ -506,3 +506,6 @@ fieldset {
     .list-peresents__item span {
       color: #333;
       font-size: 15px; }
+    .list-peresents__item--close {
+      text-decoration: line-through;
+      opacity: 0.5; }
